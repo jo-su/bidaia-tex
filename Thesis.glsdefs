@@ -1,0 +1,252 @@
+\glsdefs@newdocentry{saas}%
+{%
+name={\acronymfont {\glsentryshort {saas}}},%
+sort={SaaS},%
+type={acronym},%
+first={SaaS},%
+firstplural={SaaSs},%
+text={SaaS},%
+plural={SaaSs},%
+description={Software as a Service},%
+descriptionplural={Software as a Service},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Software as a Service},%
+longplural={Software as a Services},%
+short={SaaS},%
+shortplural={SaaSs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{spo}%
+{%
+name={\acronymfont {\glsentryshort {spo}}},%
+sort={SPO},%
+type={acronym},%
+first={SPO},%
+firstplural={SPOs},%
+text={SPO},%
+plural={SPOs},%
+description={Sharepoint Online},%
+descriptionplural={Sharepoint Online},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Sharepoint Online},%
+longplural={Sharepoint Onlines},%
+short={SPO},%
+shortplural={SPOs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{gjh}%
+{%
+name={\acronymfont {\glsentryshort {gjh}}},%
+sort={GJH},%
+type={acronym},%
+first={GJH},%
+firstplural={GJHs},%
+text={GJH},%
+plural={GJHs},%
+description={Garapen Jasangarrirako Helburuak},%
+descriptionplural={Garapen Jasangarrirako Helburuak},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Garapen Jasangarrirako Helburuak},%
+longplural={Garapen Jasangarrirako Helburuaks},%
+short={GJH},%
+shortplural={GJHs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{nbe}%
+{%
+name={\acronymfont {\glsentryshort {nbe}}},%
+sort={NBE},%
+type={acronym},%
+first={NBE},%
+firstplural={NBEs},%
+text={NBE},%
+plural={NBEs},%
+description={Nazio Batuen Erakundea},%
+descriptionplural={Nazio Batuen Erakundea},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Nazio Batuen Erakundea},%
+longplural={Nazio Batuen Erakundeas},%
+short={NBE},%
+shortplural={NBEs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{lip}%
+{%
+name={\acronymfont {\glsentryshort {lip}}},%
+sort={LIP},%
+type={acronym},%
+first={LIP},%
+firstplural={LIPs},%
+text={LIP},%
+plural={LIPs},%
+description={Lan-Ikaste Partekatzea},%
+descriptionplural={Lan-Ikaste Partekatzea},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Lan-Ikaste Partekatzea},%
+longplural={Lan-Ikaste Partekatzeas},%
+short={LIP},%
+shortplural={LIPs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{gbl}%
+{%
+name={\acronymfont {\glsentryshort {gbl}}},%
+sort={GBL},%
+type={acronym},%
+first={GBL},%
+firstplural={GBLs},%
+text={GBL},%
+plural={GBLs},%
+description={Gradu Bukaerako Lana},%
+descriptionplural={Gradu Bukaerako Lana},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Gradu Bukaerako Lana},%
+longplural={Gradu Bukaerako Lanas},%
+short={GBL},%
+shortplural={GBLs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{scss}%
+{%
+name={\acronymfont {\glsentryshort {scss}}},%
+sort={SCSS},%
+type={acronym},%
+first={SCSS},%
+firstplural={SCSSs},%
+text={SCSS},%
+plural={SCSSs},%
+description={Sassy Style Sheets},%
+descriptionplural={Sassy Style Sheets},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Sassy Style Sheets},%
+longplural={Sassy Style Sheetss},%
+short={SCSS},%
+shortplural={SCSSs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{html}%
+{%
+name={\acronymfont {\glsentryshort {html}}},%
+sort={HTML},%
+type={acronym},%
+first={HTML},%
+firstplural={HTMLs},%
+text={HTML},%
+plural={HTMLs},%
+description={HyperText Markup Language},%
+descriptionplural={HyperText Markup Language},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={HyperText Markup Language},%
+longplural={HyperText Markup Languages},%
+short={HTML},%
+shortplural={HTMLs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{css}%
+{%
+name={\acronymfont {\glsentryshort {css}}},%
+sort={CSS},%
+type={acronym},%
+first={CSS},%
+firstplural={CSSs},%
+text={CSS},%
+plural={CSSs},%
+description={Cascading Style Sheets},%
+descriptionplural={Cascading Style Sheets},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Cascading Style Sheets},%
+longplural={Cascading Style Sheetss},%
+short={CSS},%
+shortplural={CSSs},%
+counter={page},%
+parent={},%
+%
+}%
+

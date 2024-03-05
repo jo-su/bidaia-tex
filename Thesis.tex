@@ -1,0 +1,163 @@
+\documentclass{mimosis}
+
+\usepackage{metalogo}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Some of my favourite personal adjustments
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% These are the adjustments that I consider necessary for typesetting
+% a nice thesis. However, they are *not* included in the template, as
+% I do not want to force you to use them.
+
+% This ensures that I am able to typeset bold font in table while still aligning the numbers
+% correctly.
+\usepackage{etoolbox}
+
+\usepackage[binary-units=true]{siunitx}
+\DeclareSIUnit\px{px}
+
+\sisetup{%
+  detect-all           = true,
+  detect-family        = true,
+  detect-mode          = true,
+  detect-shape         = true,
+  detect-weight        = true,
+  detect-inline-weight = math,
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Hyperlinks & bookmarks
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[
+  colorlinks = true,
+  citecolor  = teal,
+  linkcolor  = teal,
+  urlcolor   = teal,
+  unicode,
+  ]{hyperref}
+
+\usepackage{bookmark}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Bibliography
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% I like the bibliography to be extremely plain, showing only a numeric
+% identifier and citing everything in simple brackets. The first names,
+% if present, will be initialized. DOIs and URLs will be preserved.
+
+\usepackage[
+  autocite     = plain,
+  backend      = biber,
+  doi          = true,
+  url          = true,
+  giveninits   = true,
+  hyperref     = true,
+  maxbibnames  = 99,
+  maxcitenames = 99,
+  sortcites    = false,
+  style        = numeric,
+  ]{biblatex}
+
+\addbibresource{Thesis.bib}
+
+%% Avoiding hyphenation
+%\usepackage[none]{hyphenat}
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fonts
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\ifxetexorluatex
+  \setmainfont{Minion Pro}
+\else
+    \usepackage[sfdefault]{noto}
+    %\usepackage{tgbonum}
+    %\usepackage{lmodern}
+    %\usepackage{dejavu}
+    %\usepackage{charter}
+    
+    %\renewcommand{\familydefault}{\sfdefault}
+    %\usepackage{bookman}
+    
+
+%%%%%%%% tgadventor %%%%
+%\usepackage{tgadventor}
+%    \usepackage[T1]{fontenc}
+%%%%%%%%    
+%%%%%%%% MONTSERRAT %%%%
+%   \usepackage[defaultfam,tabular,lining]{montserrat} %% Option 'defaultfam'
+    %% only if t\item \textsb{Industria arloko arauak kontsultatzeko zerbitzua}: he base font of the document is to be sans serif
+%    \usepackage[T1]{fontenc}
+%   \renewcommand*\oldstylenums[1]{{\fontfamily{Montserrat-TOsF}\selectfont #1}}
+%%%%%%%%%%%%%%%%%%%%%%%%  
+  \usepackage{cfr-lm} %%for semibold
+  \usepackage{float} %%image placement
+  \usepackage[oldstyle,scale=0.7]{sourcecodepro}
+  \singlespacing
+\fi
+
+\renewcommand{\th}{\textsuperscript{\textup{th}}\xspace}
+
+\include{Sources/acronyms}
+\include{Sources/glossaries}
+
+\makeindex
+\makeglossaries
+
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Incipit
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Langilearen esperientzia digitaletako tresna eta prozesuen \\sorkuntza eta bilakaera}
+\author{Josu Garralda Arrastia}
+
+\begin{document}
+
+\frontmatter
+  \include{Sources/Azala}
+  \include{Sources/Hitzaurrea}
+  \include{Sources/Abstract}
+  \tableofcontents
+  \listoffigures
+  \listoftables
+
+\mainmatter
+  \include{Sources/Sarrera}
+  \include{Sources/GarapenaEtaEmaitzak}
+  \include{Sources/MemoriaEkonomikoa}
+  \include{Sources/Ondorioak}
+  \include{Sources/EtorkizunerakoIldoak}
+  \include{Sources/PraktikaEtaGBLarenBalorazioPertsonala}
+  
+  
+%PARAGRAPH STYLE
+\setlength\parskip{1em plus 0.1em minus 0.2em}
+\setlength\parindent{0pt}
+
+% This ensures that the subsequent sections are being included as root
+% items in the bookmark structure of your PDF reader.
+\bookmarksetup{startatroot}
+\backmatter
+  \begingroup
+    \let\clearpage\relax
+    \glsaddall
+    \renewcommand{\glsnamefont}[1]{\textbf{#1}}
+    \printglossary[type=\acronymtype]
+    \newpage
+    \printglossary
+  \endgroup
+  
+  \include{Sources/Eranskinak}
+
+  \printindex
+  \printbibliography
+
+\end{document}
