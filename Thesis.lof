@@ -1,49 +1,9 @@
-\babel@toc {basque}{}\relax 
+\babel@toc {spanish}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Maslowren hierarkia enpresa ikuspegitik\relax }}{3}{figure.caption.5}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Maslowren hierarkia enpresa ikuspegitik\relax }}{2}{figure.caption.5}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Pertsonak kudeatzeko taula nagusia\relax }}{8}{figure.caption.6}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Pertsona bat editatzeko leiho modala\relax }}{9}{figure.caption.7}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces SQL Server-en sortutako taula, datuen persistentziarako\relax }}{10}{figure.caption.8}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Postman bilduma, API-ak onartzen dituen deiak\relax }}{11}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Proposatutako ariketaren eskema bisuala\relax }}{15}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Web zatia konfiguratzeko ezarpenak\relax }}{15}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Iragarkien web zatia, pantaila tamaina ezberdinetan.\relax }}{16}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Iragarkien web zatia, egoera hutsean.\relax }}{16}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Iragarki baten informazio osoa, leiho modalean.\relax }}{17}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Nabigatzaileko \textit {local storage}a, APIetako erantzunekin.\relax }}{18}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces SonarLint luzapenak egindako analisiaren emaitzak Visual Studio Coden\relax }}{22}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces UserProfileViewer SPFx soluzioaren analisiaren emaitzak\relax }}{22}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Iradokizunen entitate-erlazio diagrama (sinplifikatua)\relax }}{25}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Iradokizunen hasierako orrialdea\relax }}{27}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Iradokizun bat sortzeko formularioa\relax }}{28}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Ekintza bat sortzeko formularioa\relax }}{29}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Iradokizun baten ekintzak lortzeko botoia, JSON batez formateatua\relax }}{30}{figure.caption.23}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Iradokizunak kudeatzeko orrialdea\relax }}{30}{figure.caption.24}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Historia kontsultatzeko orrialdea\relax }}{31}{figure.caption.25}%
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Jakinarazpen baten adibidea\relax }}{32}{figure.caption.26}%
-\contentsline {figure}{\numberline {2.21}{\ignorespaces Arauak bilatzeko web zati pertsonalizatua, bezeroaren intranet zaharrean\relax }}{33}{figure.caption.27}%
-\contentsline {figure}{\numberline {2.22}{\ignorespaces Arauak bilatzeko orrialdea, PnP Modern Search web zatiekin\relax }}{34}{figure.caption.28}%
-\contentsline {figure}{\numberline {2.23}{\ignorespaces Arauak bilatzeko orrialdea, PnP Modern Search web zatiekin\relax }}{36}{figure.caption.29}%
-\contentsline {figure}{\numberline {2.24}{\ignorespaces Zerrendako elementu bat hautatzean agertzen diren komandoak\relax }}{37}{figure.caption.30}%
-\contentsline {figure}{\numberline {2.25}{\ignorespaces Deskarga prestatzen ari dela adierazten duen dialogoa\relax }}{38}{figure.caption.31}%
-\contentsline {figure}{\numberline {2.26}{\ignorespaces Errore bat gertatu dela adierazten duen dialogoa\relax }}{38}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.27}{\ignorespaces Luzapenak sortutako PDF dokumentu baten adibidea\relax }}{39}{figure.caption.33}%
-\contentsline {figure}{\numberline {2.28}{\ignorespaces Yeoman Generator komando lerrorako tresna\relax }}{40}{figure.caption.34}%
-\contentsline {figure}{\numberline {2.29}{\ignorespaces Luzapenaren iturburu-kodearen egitura\relax }}{41}{figure.caption.35}%
-\contentsline {figure}{\numberline {2.30}{\ignorespaces Zerrendako elementu baten PDF dokumentua eta eranskinak deskargatzeko ekintzaren sekuentzia diagrama\relax }}{42}{figure.caption.36}%
-\contentsline {figure}{\numberline {2.31}{\ignorespaces Zerrendako elementu bat PDF gisa deskargatzeko ekintzaren sekuentzia diagrama\relax }}{44}{figure.caption.38}%
-\contentsline {figure}{\numberline {2.32}{\ignorespaces Zerrendako elementu baten eranskinak deskargatzeko ekintzaren sekuentzia diagrama\relax }}{45}{figure.caption.39}%
-\contentsline {figure}{\numberline {2.33}{\ignorespaces Probetarako SharePoint zerrenda\relax }}{46}{figure.caption.40}%
-\contentsline {figure}{\numberline {2.34}{\ignorespaces Cypress testen fitxategiaken zati bat\relax }}{47}{figure.caption.41}%
-\contentsline {figure}{\numberline {2.35}{\ignorespaces Cypress, \textit {E2E testing}a burutzen nabigatzailean\relax }}{49}{figure.caption.43}%
-\contentsline {figure}{\numberline {2.36}{\ignorespaces Departamentuko atazak, Jira tresnako Kanban taulan\relax }}{50}{figure.caption.44}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Proiektuen lanorduan, sektore-diagraman adieraziak\relax }}{54}{figure.caption.46}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces ROI neurria kalkulatzeko formula\relax }}{54}{figure.caption.47}%
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces SDG Impact Assessment Tool tresnan lortutako emaitza\relax }}{58}{figure.caption.49}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Eragin zuzen positiboa lortu den helburuak\relax }}{58}{figure.caption.50}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces SDG Impact Assessment Tool tresnan lortutako emaitza\relax }}{5}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Eragin zuzen positiboa lortu den helburuak\relax }}{6}{figure.caption.7}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

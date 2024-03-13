@@ -57,14 +57,14 @@
 % while keeping hyphenation rules correct. Should you add another one
 % in the list, please ensure that `english` is the last one. The last
 % language is used to control standard hyphenation.
-\usepackage[basque]{babel}
+\usepackage[spanish]{babel}
 
-\addto\captionsbasque{% Replace "english" with the language you use
-  \renewcommand{\contentsname}%
-    {Aurkibidea}%
-    \renewcommand{\acronymname}%
-    {Akronimoak}%
-}
+%\addto\captionsbasque{% Replace "english" with the language you use
+%  \renewcommand{\contentsname}%
+%    {Índice}%
+%    \renewcommand{\acronymname}%
+%    {Acrónimos}%
+%}
 
 \RequirePackage{csquotes} % Context-sensitive quotation marks
 \RequirePackage{makeidx}  % For creating indices
@@ -113,7 +113,7 @@
 % Footnotes
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[hyperfootnotes=false]{hyperref}
-\renewcommand\thefootnote{\textcolor{teal}{\arabic{footnote}}}
+\renewcommand\thefootnote{\textcolor{NavyBlue}{\arabic{footnote}}}
 
 \renewcommand{\footnoterule}{%
   \kern 3pt
@@ -122,9 +122,9 @@
 }
 \hypersetup{
   colorlinks = true,
-  citecolor=teal,
-  linkcolor=teal,
-  urlcolor=teal,
+  citecolor=NavyBlue,
+  linkcolor=NavyBlue,
+  urlcolor=NavyBlue,
   linktoc=all
 }
 
@@ -354,17 +354,19 @@
 \renewcommand*{\chapterformat}{%
   \fontsize{60}{60}\selectfont
   \newline
-  \textcolor{teal}{\thechapter}\autodot\enskip%
+  \textcolor{NavyBlue}{\thechapter}\autodot\enskip%
 }
 
+\renewcommand\thesection{\color{NavyBlue}\thechapter.\arabic{section}}
+
 \renewcommand*{\sectionformat}{%
-  \textcolor{teal}{\thesection}\autodot\enskip%
+  \textcolor{NavyBlue}{\thesection}\autodot\enskip%
 }
 \renewcommand*{\subsectionformat}{%
-  \textcolor{teal}{\thesubsection}\autodot\enskip%
+  \textcolor{NavyBlue}{\thesubsection}\autodot\enskip%
 }
 \renewcommand*{\subsubsectionformat}{%
-  \textcolor{teal}{\thesubsubsection}\autodot\enskip%
+  \textcolor{NavyBlue}{\thesubsubsection}\autodot\enskip%
 }
 
 

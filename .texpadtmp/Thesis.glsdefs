@@ -1,0 +1,56 @@
+\glsdefs@newdocentry{gjh}%
+{%
+name={\acronymfont {\glsentryshort {gjh}}},%
+sort={GJH},%
+type={acronym},%
+first={GJH},%
+firstplural={GJHs},%
+text={GJH},%
+plural={GJHs},%
+description={Garapen Jasangarrirako Helburuak},%
+descriptionplural={Garapen Jasangarrirako Helburuak},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Garapen Jasangarrirako Helburuak},%
+longplural={Garapen Jasangarrirako Helburuaks},%
+short={GJH},%
+shortplural={GJHs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{nbe}%
+{%
+name={\acronymfont {\glsentryshort {nbe}}},%
+sort={NBE},%
+type={acronym},%
+first={NBE},%
+firstplural={NBEs},%
+text={NBE},%
+plural={NBEs},%
+description={Nazio Batuen Erakundea},%
+descriptionplural={Nazio Batuen Erakundea},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Nazio Batuen Erakundea},%
+longplural={Nazio Batuen Erakundeas},%
+short={NBE},%
+shortplural={NBEs},%
+counter={page},%
+parent={},%
+%
+}%
+

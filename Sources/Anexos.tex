@@ -1,0 +1,20 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Eranskinak
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagestyle{appendix}
+\vspace*{\fill}
+{\Huge\textsc{Anexos}}
+\addcontentsline{toc}{chapter}{Anexos}
+\vspace*{\fill}
+
+\appendix
+\renewcommand{\thesection}{\Alph{section}}
+
+%\includepdf[scale=0.75, pages=1, angle=180, pagecommand=\section{Proiektuaren planifikazioaren Gantt diagrama}\label{app:gantt}]{Assets/gantt-final.pdf}
+
+\includepdf[scale=0.75, pages=1,pagecommand=\section{El impacto del proyecto respecto a los ODS}\label{app:gjh}]{Assets/bidaia-sdg.pdf}
+\includepdf[scale=0.80, pages=2-last, pagecommand=\thispagestyle{eranskinak}]{Assets/bidaia-sdg.pdf}
+
+\pagestyle{plain}
+

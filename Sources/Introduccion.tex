@@ -1,0 +1,205 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Introducción}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     \parbox{1\linewidth}{En este capítulo se muestra el proceso inicial de análisis y el planteamiento del proyecto, así como los objetivos propuestos y el enfoque y método que se seguirá para poder cumplir con la planificación.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Contexto y justificación del trabajo}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Contexto} 
+Después años en los que el turismo no ha recuperado los niveles prepandémicos, las prespectivas par a este 2024 son tan prometedoras como complejas. La demanda por destinos más sostenibles en las  que se centra en cuidar los espacios naturales y la cultura local ha crecido y se espera que siga en la misma línea en el futuro. Esto supone un reto ya que los destinos más populares tendrán que saber enfrentarse a este turismo de masas a la vez cuidan a sus residentes. 
+
+Las nuevas tecnologías, como en el resto de sectores, también se ha adentrado por completo en la industria turística. Este año será más tecnológico que nunca y cada vez más viajeros optan por aplicaciones y plataformas para descubrir, reservar y planificar sus vacaciones. Además, la creciente adopción de smartphones es el factor que empuja al crecimiento del mercado.
+
+Según el estudio Global Travel Planner App Market publicado por Market.us en noviembre de 2023 \cite{market-us-travel-app}, se espera que el mercado de aplicaciones de planificación de viajes crezca un 11,9\% hasta 2032. Teniendo en cuenta el destino, el mercado internacional registró el 58\% del share en el año 2022, dejando el 42\% para los viajes domésticos.
+
+La integración con las redes sociales está siendo una tendencia al alza, ya que esta es una de las maneras más efectivas de llegar a los viajeros. Sobre todo a los viajeros más jóvenes, que utilizan las redes sociales en su día a día y es su principal fuente de información.
+
+\subsection{Problemática} 
+En una sociedad cada vez más digitalizada e inundada de información y datos, resulta difícil organizar y seleccionar entre todos los lugares y destinos disponibles. A la vez, los municipios y regiones más turísticos tienen el reto de poner límites al turismo de masas y diversificar su oferta turística. 
+
+Los viajeros están más preparados que nunca y para ello hacen uso de herramientas y fuentes de información para después poder recopilar todo lo necesario para el viaje y compartirlo con el resto de viajeros. Sin embargo, es difícil encontrar una aplicación o plataforma única que una todas estas necesidades. 
+
+Alineando la problemática de los viajeros y las zonas turísticas, existe el reto de conectar a visitantes con nuevos destinos de vacaciones, pero también de salidas de un día o escapadas de un fin de semana. Se quiere fomentar el turismo local y de proximidad, pero no es tarea fácil reorientar a los viajeros a esta alternativa de turismo.
+
+\subsection{Estado del arte} 
+He analizado tanto competidores en el mismo mercado como herramientas que se utilizan a la hora de organizar viajes, aunque no estén expresamente diseñados para ello.
+
+\begin{itemize}
+   \item \href{https://wanderlog.com/}{Wanderlog}
+   \begin{itemize}
+     \item Pros:
+     \begin{itemize}
+		\item Comunidad de viajeros, directorio de guías de viaje.
+        \item Alimentado con datos de Google Maps.
+        \item Aplicación visual con mapa y listado intuituvo.
+        \item Presupuesto y gestor de gastos.
+        \item Agrupaciones de lugares, notas... Estructura modular y personalizable.
+     \end{itemize}
+     \item Contras:
+     \begin{itemize}
+		\item No se puede asignar horas a lugares o eventos. Únicamente a trayectos.
+        \item Alimentado con datos de Google Maps.
+     \end{itemize}
+   \end{itemize}
+   \item \href{https://www.tripit.com}{TripIt}
+   \begin{itemize}
+     \item Pros:
+     \begin{itemize}
+		\item Enfoque en los viajes de trabajo, con una planificación hora a hora.
+        \item Posibilidad de añadir elementos reenviando emails de confirmación.
+        \item Itinerario disponible offline.
+        \item Alertas y notificaciones.
+     \end{itemize}
+     \item Contras:
+     \begin{itemize}
+		\item Interfaz funcional, pero pobre. Formularios muy extensos para la entrada de datos.
+        \item Gestión de viajes "privado", no hay ninguna funcionalidad pública.
+     \end{itemize}
+   \end{itemize}
+   \item \href{https://travel.sygic.com}{Sygic Travel Maps}
+   \begin{itemize}
+     \item Pros:
+     \begin{itemize}
+		\item Definición de rutas y trayectos en el mapa.
+		\item Posibilidad de añadir lugares manualmente.
+		\item Mapas de metro/transporte público integrados.
+		\item Plantillas de itinerarios por duración.
+     \end{itemize}
+     \item Contras:
+     \begin{itemize}
+     	\item Da preferencia a los sitios más visitados / turísticos. 
+		\item La mayoría de la información y las guías contienen mayoritariamente información de Wikipedia y los datos son algo pobres. 
+        \item Muy enfocado a la venta de tours, experiencias... Se siento como si fuera todo "publicidad".
+     \end{itemize}
+   \end{itemize}
+	\item \href{https://www.google.com/maps}{Google Maps + Calendar + Docs}
+   \begin{itemize}
+     \item Pros:
+     \begin{itemize}
+		\item Muy buenos datos: actualizados y con opiniones de la comunidad. 
+        \item Fácil colaboración: listas de mapas, calendarios y documentos compartidos.
+     \end{itemize}
+     \item Contras:
+     \begin{itemize}
+		\item Aplicaciones separadas, datos "dispersados".
+        \item Falta de coherencia de datos entre una herramienta y otra. Gestión adicional.
+     \end{itemize}
+   \end{itemize}
+ \end{itemize}
+\end{itemize}
+
+\subsection{Oportunidades y valor añadido} 
+Tras analizar las diferentes soluciones del mercado y basándome también en mi experiencia personal, opto por combinar los puntos fuertes de varias de las soluciones. Los siguientes serán los ejes de la solución:
+\begin{itemize}
+	\item \textbf{Visual y atractivo}: Aplicación con aspecto simple, pero funcional. Optar por un tono amigable y cercano a las personas. La vista de mapa es esencial.
+	\item \textbf{Colaborativo}: habilitar la búsqueda de guías cercanas, creación de listas favoritas, opciones de colaborar tanto en listas como en viajes. Permitir explorar las guías sin necesidad de registrarse o crear un nuevo proyecto.
+	\item \textbf{Lugares y notas como eventos/tareas}: Tratar cada elemento de un itinerario, como los lugares o las notas, como si fuesen un evento de calendario o una tarea en un momento específico. 
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Objetivos del Trabajo}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Para poder cumplir con los objetivos se va a crear una plataforma en línea. Estará basada en una aplicación web al que los usuarios podrán acceder desde sus dispositivos (tanto desde ordenadores, como tablets o móviles).
+
+La solución propuesta tiene dos objetivos principales:
+\begin{itemize}
+	\item Crear una herramienta centralizada dónde se pueda gestionar y colaborar sobre la planificación de un viaje.
+	\item Ser el escaparate de destinos de viaje, dónde se pone en valor los destinos próximos a los viajeros y se proponen guías/planes creados por los propios viajeros y la comunidad.
+\end{itemize}
+
+Al final del trabajo, se espera conseguir una aplicación completa y funcional que sirva como punto de partida (producto mínimo viable) para una solución sobre la cual se pueda iterar en el futuro y añadir funcionalidades adicionales. También se le dará importancia a la redacción de una memoria en la que se aborda el camino seguido y la justificación de las decisiones tomadas. 
+
+Considero indispensable que la aplicación final vaya acompañada de su correspondiente documentación, incluyendo los endpoints de la API, el modelo relacional de la base de datos y un plan de despliegue.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Impacto en sostenibilidad, ético-social y de diversidad}\label{sec:impacto}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Los Objetivos para el Desarrollo Sostenible (ODS) es un plan de acción para la prosperidad de las personas y el planeta, que trabaja hacia la paz universal y tiene el propósito de reforzar el acceso a la justicia. Fué creada por la Organización de las Naciones Unidas, reune 17 objetivos, 169 targets y 231 indicadores y se situa dentro del plan Agenda 2030.
+
+Para poder medir el impacto de la iniciativa propuesta en el trabajo, he decidido utilizar la herramienta de SDG Impact Assessment Tool \footnote{SDG Impact Assessment Tool \url{https://sdgimpactassessmenttool.org}}. Gracias a esta herramienta, se puede describir el impacto de cada objetivo. Muchos objetivos no son relevantes en relación al proyecto que se desarrolla, pero sí que se detectan claros objetivos en los que se obtiene un impacto positivo.
+
+Se detecta un impacto positivo en el objetivo 8, Trabajo decente y crecimiento económico. Este objetivo pretende elevar la productividad a través de la tecnología, fomentar las PYMES y promocionar el turismo sostenible entre otros. En el caso de esta iniciativa, uno de sus objetivos es promover el turismo sostenible y crear trabajo en zonas más alejadas de las urbes principales lo que beneficiaria sobre todo a pequeñas y medianas empresas que trabajan en la zona como artesanos, agricultores...
+
+Siguiendo el hilo del turismo sostenible, el objetivo 12 que corresponde a la producción y consumo responsable también se propone el conseguir turismo sostenible.
+
+El objetivo 11 se centra en crear ciudades y comunidades más sostenibles, protegiendo el patrimonio cultural y local y apoyando el vínculo entre zonas urbanas, periurbanas y rurales. Como la plataforma se propone promover el flujo de viajeros hacia las zonas más rurales de las regiones y empujar sus economías, se podría conseguir impacto positivo.
+
+Habría que hacer un análisis más exhaustivo una vez que la plataforma esté en uso para ver si también se obtiene impacto positivo en el objetivo 13: acción por el clima. Se conseguiría si se puede demostrar que gracias a la iniciativa los viajeros apuestan por destinos más próximos o vías de transporte menos contaminantes.
+
+En el anexo A se encuentra el resultado del análisis en detalle. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Enfoque y método seguido}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Se elige la metodología de Scrum ya que es la más apropiada para este tipo de proyectos en las que se desarrolla una nueva solución desde cero y su objetivo es crear un producto mínimo viable. 
+
+Tras la primera fase de análisis, se procederá con el diseño de los componentes base de la solución: el frontend, la API y la base de datos que consume la API. 
+
+Una vez que las bases ya estén asentadas se empezará a añadir las funcionalidades necesarias. Estas funcionalidades de añadirán en varios sprints. Se planificarán todas las funcionalidades definidas en los sprints, y el resto de funcionalidades que no puedan ser desarolladas ahora se dejarán en el backlog. 
+
+Para la gestión del código fuente se apuesta por la estrategia de \textit{multirepo}, en la que el código de la solución está dividida en varios repositorios. Para seguir un orden en estos repositorios se seguirán las directrices del desarrollo basado en troncos (\textit{trunk-based development}), junto a la gestión de epics, milestones e issues.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Planificación del trabajo}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Para la planificación se ha definido un diagrama de Gantt, que se desglosaría en los siguientes puntos:
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\textwidth]{Figures/Gantt/gantt-1.png}
+\caption{Planificación del análisis}
+\label{gantt-1}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\textwidth]{Figures/Gantt/gantt-2.png}
+\caption{Planificación del diseño y puesta en marcha}
+\label{gantt-2}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\textwidth]{Figures/Gantt/gantt-3.png}
+\caption{Sprint 1}
+\label{gantt-3}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\textwidth]{Figures/Gantt/gantt-4.png}
+\caption{Sprint 2}
+\label{gantt-3}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Breve sumario de productos obtenidos}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Estos serían los activos obtenidos del desarrollo del trabajo:
+\begin{itemize}
+	\item Repositorio Git con el código fuente del frontend.
+	\item Repositorio Git con el código fuente de la API.
+	\item Memoria del proyecto.
+	\item Documentación de la solución general.
+	\item Documentación de la API.
+	\item Guía para el despliegue, y los elementos que se utilicen (Dockerfile, Docker Compose...)
+	\item Prototipos del diseño del frontend (archivos Figma).
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Breve descripción de los otros capítulos de la memoria}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+En los siguientes capítulos se recogen las decisiones de diseño tomadas como el trascurso del desarrollo del proyecto:
+\begin{itemize}
+	\item Capítulo 2: Descripción de las decisiones de diseño tomadas y su justificación.
+	\item Capítulo 3: Los resultados generados durante la duración del proyecto.
+	\item Capítulo 4: Conclusiones obtenidas después de realizar el trabajo y las líneas de futuro.
+	\item Capítulo 5,6,7:  Glosario, Siglas, Bibliografía y Anexos.
+\end{itemize}
+ 
+

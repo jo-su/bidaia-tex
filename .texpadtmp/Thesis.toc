@@ -1,0 +1,22 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}%
+\contentsline {section}{\numberline {\color {NavyBlue}1.1}Contexto y justificación del trabajo}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {\color {NavyBlue}1.1.1}Contexto}{1}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {\color {NavyBlue}1.1.2}Problemática}{1}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {\color {NavyBlue}1.1.3}Estado del arte}{2}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {\color {NavyBlue}1.1.4}Oportunidades y valor añadido}{4}{subsection.1.1.4}%
+\contentsline {section}{\numberline {\color {NavyBlue}1.2}Objetivos del Trabajo}{4}{section.1.2}%
+\contentsline {section}{\numberline {\color {NavyBlue}1.3}Impacto en sostenibilidad, ético-social y de diversidad}{4}{section.1.3}%
+\contentsline {section}{\numberline {\color {NavyBlue}1.4}Enfoque y método seguido}{5}{section.1.4}%
+\contentsline {section}{\numberline {\color {NavyBlue}1.5}Planificación del trabajo}{6}{section.1.5}%
+\contentsline {section}{\numberline {\color {NavyBlue}1.6}Breve sumario de productos obtenidos}{7}{section.1.6}%
+\contentsline {section}{\numberline {\color {NavyBlue}1.7}Breve descripción de los otros capítulos de la memoria}{7}{section.1.7}%
+\contentsline {chapter}{\numberline {2}Materiales y métodos}{9}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Resultados}{10}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Conclusiones y líneas futuras}{11}{chapter.4}%
+\contentsline {chapter}{Siglas}{12}{section*.9}%
+\contentsline {chapter}{Glosario}{13}{section*.11}%
+\contentsline {chapter}{\nonumberline Bibliograf\'{\i }a}{14}{chapter*.13}%
+\contentsline {chapter}{Anexos}{15}{chapter*.13}%
+\contentsline {section}{\numberline {A}El impacto del proyecto respecto a los ODS}{16}{section.Alph0.1}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
